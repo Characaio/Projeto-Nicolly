@@ -1,0 +1,55 @@
+:root {
+  --menu-high-highlight: #7fb975;
+  --menu-highlight: #5f9357;
+  --menu-main-bg:#486b42;
+  --menu-dark-bg:#314d2f;
+  --menu-pretty-dark-bg: #1c2a1b;
+  --second-menu-color: #3b5783;
+  --main-highlight-light:#fddb84;
+  --main-highlight-base:#EEC762;
+  --main-highlight-action:#fddb84;
+  --main-highlight-button:#efc34d;
+  --main-highlight-dark: hsl(43.3, 90.5%, 62.7%);
+  --main-highlight-soft: hsl(45, 42%, 57%);
+  --second-highlight-base:#A2C0E8;
+  --second-highlight-action:#bcd4f3;
+  --main-bg: #f8f6e1;
+  --secondary-bg:#fcf2ce;
+  --third-bg:#eed2ab;
+  --fourth-bg:#cea574;
+  --main-bg-gradient: linear-gradient(#eedec9, #c29e73);
+
+
+  --harsh-shadow-type-1: rgba(0, 0, 0, 0.35);
+  --soft-shadow-type-1: rgba(0, 0, 0, 0.40);
+  --harsh-shadow-type-2: rgba(0, 0, 0, 0.25);
+  --soft-shadow-type-2: rgba(0, 0, 0, 0.20);
+  --harsh-shadow-type-3: rgba(0, 0, 0, 0.15);
+  --soft-shadow-type-3: rgba(0, 0, 0, 0.10);
+  --harsh-shadow-type-4: rgba(0, 0, 0, 0.08);
+  --soft-shadow-type-4: rgba(0, 0, 0, 0.03);
+  --shadow-box-type-dark:
+    -1px 5px 1rem var(--soft-shadow-type-1),
+    1px 5px 1rem var(--soft-shadow-type-1),
+    0 3px 1rem var(--soft-shadow-type-1),
+    1px 1px 0.3rem var(--harsh-shadow-type-1),
+    -1px 1px 0.3rem var(--harsh-shadow-type-1);
+  --shadow-box-type-medium:
+    -1px 5px 1rem var(--soft-shadow-type-2),
+    1px 5px 1rem var(--soft-shadow-type-2),
+    0 3px 1rem var(--soft-shadow-type-2),
+    1px 1px 0.3rem var(--harsh-shadow-type-2),
+    -1px 1px 0.3rem var(--harsh-shadow-type-2);
+  --shadow-box-type-light:
+    -1px 5px 1rem var(--soft-shadow-type-3),
+    1px 5px 1rem var(--soft-shadow-type-3),
+    0 3px 1rem var(--soft-shadow-type-3),
+    1px 1px 0.3rem var(--harsh-shadow-type-3),
+    -1px 1px 0.3rem var(--harsh-shadow-type-3);
+  --shadow-box-type-super-light:
+    -1px 8px 1rem var(--soft-shadow-type-4),
+    1px 8px 1rem var(--soft-shadow-type-4),
+    0 6px 1rem var(--soft-shadow-type-4),
+    1px 3px 0.3rem var(--harsh-shadow-type-4),
+    -1px 3px 0.3rem var(--harsh-shadow-type-4);
+}
