@@ -6,32 +6,11 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/main-color-theme.css">
   <script src="../js/coisas.js"></script>
-  <script src="./js/compras.js"></script>
+
 </head>
 <body>
   <header id="head">
-    <h1><b>Nome Foda Da Marca</b></h1>
-    <div class="header-container">
-      <button class="header-bot" onclick="mudar_pagina('mainPage.html')">Bot 1</button>
-      <button class="header-bot" onclick="mudar_pagina('ShoppingPage.html')">Bot 2</button>
-      <button class="header-bot">Bot 3</button>
-      <button class="header-bot">Bot 4</button>
-      <button onclick="let sidebar = document.getElementById('sidebar');
-    sidebar.classList.toggle('show');
-    sidebar.inert = false;" class="header-bot burguer">Bugy</button>
-    </div>
-    <div class="sidebar" id="sidebar" inert>
-      <div class="sidebar-content">
-        <button class="header-bot burguer-exit" onclick="let sidebar = document.getElementById('sidebar');
-    sidebar.classList.toggle('show');
-    sidebar.inert = true;">X</button>
-        <hr>
-        <button class="header-bot">Bot 1</button>
-        <button class="header-bot">Bot 2</button>
-        <button class="header-bot">Bot 3</button>
-        <button class="header-bot">Bot 4</button>
-      </div>
-    </div>
+
   </header>
   <section class="shopping-section">
     <!--
@@ -41,34 +20,33 @@
     -->
     <div class="row-container" style="gap: 16px">
       <aside class="shop-sidebar">
-        <div style="display: flex;flex-direction: column;align-items: center;">
-
-            <h2>pesquisar</h2>
+        <div class="sidebar-search-container">
+            <h2>Pesquisar</h2>
             <input class="search-container" type="text">
         </div>
         <div class="siide-bar-filter-container">
-          <details open>
+          <details  class="sidebar-detail">
             <summary>Categoria De Produtos</summary>
-            <label><input type="checkbox" name="categorias"> Categoria1 </label><br>
-            <label><input type="checkbox" name="categorias"> Categoria2 </label><br>
-            <label><input type="checkbox" name="categorias"> Categoria3 </label><br>
-            <label><input type="checkbox" name="categorias"> Categoria4 </label><br>
-            <label><input type="checkbox" name="categorias"> Categoria5 </label><br>
-            <label><input type="checkbox" name="categorias"> Categoria6 </label><br>
-            <label><input type="checkbox" name="categorias"> Categoria7 </label><br>
-            <label><input type="checkbox" name="categorias"> Categoria8 </label><br>
+            <div><label><input class="side-basic-check-input" type="checkbox" name="categorias"> Categoria1  </label></div>
+            <div><label><input class="side-basic-check-input" type="checkbox" name="categorias"> Categoria2  </label></div>
+            <div><label><input class="side-basic-check-input" type="checkbox" name="categorias"> Categoria3  </label></div>
+            <div><label><input class="side-basic-check-input" type="checkbox" name="categorias"> Categoria4  </label></div>
+            <div><label><input class="side-basic-check-input" type="checkbox" name="categorias"> Categoria5  </label></div>
+            <div><label><input class="side-basic-check-input" type="checkbox" name="categorias"> Categoria6  </label></div>
+            <div><label><input class="side-basic-check-input" type="checkbox" name="categorias"> Categoria7  </label></div>
+            <div><label><input class="side-basic-check-input" type="checkbox" name="categorias"> Categoria8  </label></div>
           </details>
-          <details>
+          <details class="sidebar-detail">
             <summary>Material Do produto</summary>
-            <label><input type="checkbox" name="materiais">Material1</label><br>
-            <label><input type="checkbox" name="materiais">Material2</label><br>
-            <label><input type="checkbox" name="materiais">Material3</label><br>
+            <div><label><input class="side-basic-check-input" type="checkbox" name="materiais">Material1 </label></div>
+            <div><label><input class="side-basic-check-input" type="checkbox" name="materiais">Material2 </label></div>
+            <div><label><input class="side-basic-check-input" type="checkbox" name="materiais">Material3 </label></div>
           </details>
-          <details>
+          <details class="sidebar-detail" open>
             <summary>Preço</summary>
-            <label>Preço Minimo: <input type="number"></label><br>
+            <label>Preço Minimo: <input class="detail-search-container" value="0" type="number"></label><br>
             <br>
-            <label>Preço Maximo: <input type="number"></label><br>
+            <label>Preço Maximo: <input class="detail-search-container" value="1000" type="number"></label><br>
           </details>
         </div>
       </aside>

@@ -10,28 +10,7 @@
 </head>
 <body>
   <header id="head">
-    <h1><b>Nome Foda Da Marca</b></h1>
-    <div class="header-container">
-      <button class="header-bot" onclick="mudar_pagina('mainPage.html')">Bot 1</button>
-      <button class="header-bot" onclick="mudar_pagina('ShoppingPage.html')">Bot 2</button>
-      <button class="header-bot">Bot 3</button>
-      <button class="header-bot">Bot 4</button>
-      <button onclick="let sidebar = document.getElementById('sidebar');
-  sidebar.classList.toggle('show');
-  sidebar.inert = false;" class="header-bot burguer">Bugy</button>
-    </div>
-    <div class="sidebar" id="sidebar" inert>
-      <div class="sidebar-content">
-        <button class="header-bot burguer-exit" onclick="let sidebar = document.getElementById('sidebar');
-  sidebar.classList.toggle('show');
-  sidebar.inert = true;">X</button>
-        <hr>
-        <button class="header-bot" onclick="mudar_pagina('ShoppingPage.html')">Bot 1</button>
-        <button class="header-bot">Bot 2</button>
-        <button class="header-bot">Bot 3</button>
-        <button class="header-bot">Bot 4</button>
-      </div>
-    </div>
+
   </header>
   <section class="main-container">
 
@@ -39,7 +18,7 @@
       <h1>Cuidado <b>feminino</b> com a força da natureza brasileira.</h1>
       <p>Brevissima explicaçção sobre o projeto todo q eu nn sei falar</p>
       <div class="landing-text-bot-container">
-        <button class="landing-text-bot bot-compra">
+        <button class="landing-text-bot bot-compra" onclick="window.location.href='ShoppingPage.html'">
           Compre Nossos Produtos
         </button>
         <button class="landing-text-bot bot-educacional">
